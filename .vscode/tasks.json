@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "command": "mvn clean package && java -jar target/$(mvn help:evaluate -Dexpression=project.artifactId -q -DforceStdout)-$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout).jar",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "Run",
+      "options": {
+        "env": {
+            "SERVER_PORT": "8078"
+        }
+      },
+      "problemMatcher": [],
+      "type": "shell"
+    },
+  ],
+  "version": "2.0.0"
+}
