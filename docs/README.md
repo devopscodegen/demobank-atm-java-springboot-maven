@@ -1,13 +1,13 @@
-# demobank-atm-java-springboot-maven
-Atm Application Component of Demo Bank using below technologies
+# orgunit02-app02-atm
+- Organization : example-bank
+- Organizational Unit : orgunit02
+- Application : app03
+- Architecture : backend, monolith, rest api
+- Component : atm
 - Programming Language : java
-- Middleware : springboot
+- Middleware : springboot, relational database, kafka
 - Dependency management : maven
 
-Add Common React Frontend Application Component for all
-Add MongoDB Persistence - Done
-Add Events - Done
-Add Data Ingestion Pipeline Application Component
-Change currency to currency code - Done
-Add jmolecules and DDD blog annotations and interfaces like AggregateRoot
-Add lombok getters, constructors and other best practices from jmolecules spring data jpa examples.
+# Features to be implemented
+- Add Common React Frontend Application Component for all
+- Add Data Ingestion Pipeline Application Component
